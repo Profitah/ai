@@ -12,7 +12,7 @@ while True:
     # 사용자에게 질문 입력 받기
     user_input = input("사용자: ")
 
-    # 질문
+    # 질문 처리 로직
     if "몇시" in user_input:
         if 6 <= h < 12:
             response = f"{h}시 {m}분! 아침 : 좋은 아침이야 언니!"

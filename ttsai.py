@@ -2,23 +2,23 @@ from gtts import gTTS
 import os
 
 # 사용자로부터 언어 선택 입력
-language_option = input("음성 변환 언어 선택 (한국어: k, 영어: e, 일본어: j): ")
+language_option = input("음성 변환 언어 선택 (한국어: ko, 영어: en, 일본어: ja): ")
 
 user_input = input("인사해 주세요! : ")
 
-if language_option == "k":
+if language_option == "ko":
     if user_input == "사쿠라":
         response = "지금은 안돼"
     else:
         response = "뭐라고?"
 
-elif language_option == "e":
+elif language_option == "en":
     if user_input == "Sakura":
         response = "Not now"
     else:
         response = "what?"
 
-elif language_option == "j":
+elif language_option == "ja":
     if user_input ==  "咲良":
        response = "今はできません。"
     else:
